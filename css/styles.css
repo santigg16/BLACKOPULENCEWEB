@@ -1,0 +1,194 @@
+body {
+  font-family: 'Kanit';
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Encabezado */
+.navbar {
+  background-color: #000000;
+}
+
+.bg-dark {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+/* Estilo para la imagen de fondo del encabezado */
+.custom-header-bg {
+  background-image: url('/imagenes/fondoportada.png');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* Estilo para el filtro oscuro */
+.dark-overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3); 
+}
+
+/* Estilos para el contenido del encabezado */
+.custom-header-content {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+}
+
+/* Estilos para las imágenes dentro de las cajas de tendencias */
+.trend-item img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px; }
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffd700; 
+}
+
+.navbar-toggler-icon {
+  background-color: #ffd700; 
+}
+
+.navbar-toggler {
+  border-color: #ffd700; 
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ffd700; 
+  border-color: #ffd700; 
+}
+
+/* Botones personalizados */
+.custom-btn {
+  background-color: #ffd700; 
+  color: #000000; 
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: transparent;
+  border-color: #ffd700; 
+  color: #ffd700; 
+}
+
+/* Cartas (cards) */
+.card {
+  background-color: #000000; 
+  color: #ffd700; 
+  border: 2px solid #ffd700; 
+  transition: background-color 0.3s ease; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title,
+.card-text {
+  color: #ffffff; 
+}
+
+.card:hover {
+  background-color: #ffd700; 
+  color: #000000; 
+  cursor: pointer;
+}
+
+/* Sección de Tendencias */
+.trending-section {
+  background-color: #000000; 
+  color: #ffffff; 
+}
+
+.section-title {
+  color: #ffd700; 
+  text-align: center;
+}
+
+.trend-item {
+  background-color: transparent;
+  border: 2px solid #ffd700; 
+  border-radius: 10px;
+  transition: background-color 0.3s ease; 
+}
+
+.trend-item:hover {
+  background-color: #ffd700; 
+  color: #000000;
+  cursor: pointer;
+}
+
+
+.brand-section {
+  background-color: #000000; 
+  color: #ffffff; 
+  padding: 80px 0;
+}
+
+.section-titleinfo {
+  color: #ffd700; 
+  margin-bottom: 50px;
+}
+
+.brand-info h2 {
+  color: #ffffff; 
+}
+
+.brand-info p {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.brand-info a {
+  color: #000000; 
+  background-color: #ffd700; 
+  border: 2px solid #ffd700; 
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.brand-info a:hover {
+  background-color: transparent;
+  color: #ffd700; 
+}
+
+.brand-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .btn-outline-light {
+  border-color: #ffd700;
+  color: #ffd700;
+}
+
+footer .btn-outline-light:hover {
+  background-color: #ffd700;
+  color: #000000;
+}
